@@ -22,7 +22,7 @@ RUN yarn build
 FROM base AS runner
 ENV NEXT_TELEMETRY_DISABLED 1
 ENV NODE_ENV="development"
-ENV VERCEL_URL=""
+ENV VERCEL_URL=""https://animepurwokerto-kap320.vercel.app/
 ENV TMDB_ACCESS_KEY=""
 WORKDIR /app
 RUN \
